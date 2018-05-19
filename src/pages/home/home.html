@@ -1,0 +1,50 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title padding center text-center>
+			Ionic FullApp
+		</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content padding right text-right>
+	You entered my application
+
+	<ion-list>
+		<ion-item>
+			<ion-label floating>Username</ion-label>
+			<ion-input placeholder = "Username" [(ngModel)]= "inputVal" type="text"></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label floating>Password</ion-label>
+			<ion-input placeholder = "Password" type="password" [(ngModel)]= "password" ></ion-input>
+		</ion-item>
+	</ion-list>
+
+	<button ion-button full (click) ="login()"> Login </button>
+	<button ion-button full color="light" (click) = "goRegister()">Register </button>
+
+	<ion-item>
+		<ion-textarea placeholder = "Write me a novel" rows = "10">
+
+		</ion-textarea>
+	</ion-item>
+
+	<p padding center text-center>
+		This app was created by Pablo Rosales
+	</p>
+
+	<button ion-button (click)="getData()" padding left >HTML Good Stuff</button>
+
+	<button ion-button round padding center text-center (click) = "buttonClick()" >CLick me to begin</button>
+
+	<ion-row> ID: {{result.id}} </ion-row>
+	<ion-row> Body: {{result.body}} </ion-row>
+	<ion-row> Title: {{result.title}} </ion-row>
+
+	<p padding center text-center>
+		I know you are writing:
+		{{inputVal}}
+	</p>
+
+</ion-content>
