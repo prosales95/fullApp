@@ -34,9 +34,11 @@
 		This app was created by Pablo Rosales
 	</p>
 
-	<button ion-button (click)="getData()" padding left >HTML Good Stuff</button>
+	<button ion-button round (click)="getData()" padding left >HTML Good Stuff</button>
 
-	<button ion-button round padding center text-center (click) = "buttonClick()" >CLick me to begin</button>
+<button ion-button round padding center text-left full color="dark" (click) = "goInfo()">Good Info </button>
+
+	<button ion-button round padding center text-right (click) = "buttonClick()" >CLick me to begin</button>
 
 	<ion-row> ID: {{result.id}} </ion-row>
 	<ion-row> Body: {{result.body}} </ion-row>

@@ -25,7 +25,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  		console.log('ionViewDidLoad RegisterPage');
  	}
 
- 	register(){
+ 	register(){ 
  		if (this.username.length ==0 ||
  			this.password.length == 0 || this.repassword.length==0){
  			alert("Comon dude please fill all fields")	

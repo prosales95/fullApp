@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import {RegisterPage} from '../register/register';
+import {InfoPage} from '../info/info';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
 
@@ -27,6 +28,10 @@ export class HomePage {
 	goRegister(){
 		this.navCtrl.push(RegisterPage)
 
+	}
+
+	goInfo(){
+		this.navCtrl.push(InfoPage)
 	}
 
 	login(){
