@@ -8,6 +8,9 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { RegisterPage } from '../pages/register/register';
 import { InfoPage } from '../pages/info/info';
+import { AboutPage } from '../pages/about/about';
+import { MenuPage } from '../pages/menu/menu';
+import { ContactPage } from '../pages/contact/contact';
 import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
@@ -15,7 +18,10 @@ import {HttpClientModule} from '@angular/common/http';
   MyApp,
   HomePage,
   RegisterPage,
-  InfoPage
+  InfoPage,
+  AboutPage,
+  MenuPage,
+  ContactPage
   ],
   imports: [
   BrowserModule,
@@ -27,7 +33,11 @@ import {HttpClientModule} from '@angular/common/http';
   MyApp,
   HomePage,
   RegisterPage,
-  InfoPage
+  InfoPage,
+  InfoPage,
+  AboutPage,
+  MenuPage,
+  ContactPage
   ],
   providers: [
   StatusBar,
