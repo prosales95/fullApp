@@ -1,4 +1,4 @@
-<ion-nav [root]="rootPage">
+
 	<ion-menu [content] ="content">
 		<ion-header>
 			<ion-toolbar color = "primary">
@@ -10,11 +10,13 @@
 		<ion-list>
 			<button color= "accent" menuClose ion-item *ngFor = "let p of pages" (click)="openPage(p)" >
 				<ion-icon [name]="p.icon" item-left> </ion-icon>
-
-			 {{p.title}}
+				 +{{p.title}}
 			</button> 
 		</ion-list>
 	</ion-content>
 
 </ion-menu>
-		
+
+//Disable swipe to fo baCK cause poor UX combining STGB
+		<ion-nav [root]="rootPage" #content 
+		swipeBackEnabled = "false"></ion-nav>

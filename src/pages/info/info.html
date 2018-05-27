@@ -7,37 +7,42 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Info</ion-title>
-  </ion-navbar>
+    <ion-navbar color = "primary">
+      <button ion-button menuToggle>
+        <ion-icon name ="menu"> </ion-icon> </button>
+        <ion-title>Information</ion-title>
+      </ion-navbar>
+      <ion-title>Info</ion-title>
+    </ion-navbar>
 
-</ion-header>
+  </ion-header>
 
-<ion-content>
-	<ion-list>
-  <ion-item-group>
-    <ion-item-divider color="light">Latin gastronomy by country</ion-item-divider>
-    <ion-item *ngFor = "let nat of nats" (click) = "natClick(nat.cap)">
-    	<h2>{{nat.title}}</h2> </ion-item>
-  </ion-item-group>
-</ion-list>
+  <ion-content>
+   <ion-list>
+    <ion-item-group>
+      <ion-item-divider color="light">Latin gastronomy by country</ion-item-divider>
+      <ion-item *ngFor = "let nat of nats" (click) = "natClick(nat.cap)">
+       <h2>{{nat.title}}</h2> </ion-item>
+     </ion-item-group>
+   </ion-list>
 
-<ion-list>
-  <ion-item-group>
-    <ion-item-divider color="danger">By environment </ion-item-divider>
-    <ion-item *ngFor = "let obj of objs">{{obj.title}}</ion-item>
-  </ion-item-group>
-</ion-list>
+   <ion-list>
+    <ion-item-group>
+      <ion-item-divider color="danger">By environment </ion-item-divider>
+      <ion-item *ngFor = "let obj of objs">{{obj.title}}</ion-item>
+    </ion-item-group>
+  </ion-list>
 
 
-<ion-list>
-  <ion-item-group>
-    <ion-item-divider color="dark">100 Latin Language labels </ion-item-divider>
-    <ion-item *ngFor = "let item of items">
-<h1>
-	{{item.id}}
-</h1>
-    {{item.title}}</ion-item>
-  </ion-item-group>
-</ion-list>
+  <ion-list>
+    <ion-item-group>
+      <ion-item-divider color="dark">100 Latin Language labels </ion-item-divider>
+      <ion-item *ngFor = "let item of items">
+        <h1>
+         {{item.id}}
+       </h1>
+     {{item.title}}</ion-item>
+   </ion-item-group>
+ </ion-list>
 
 </ion-content>

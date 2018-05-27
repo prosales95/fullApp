@@ -6,33 +6,36 @@
 -->
 <ion-header>
 
-	<ion-navbar>
-		<ion-title>Register</ion-title>
-	</ion-navbar>
+	
+	<ion-navbar color = "secondary">
+		<button ion-button menuToggle>
+			<ion-icon name ="menu"> </ion-icon> </button>
+			<ion-title>Register</ion-title>
+		</ion-navbar>
 
-</ion-header>
-
-
-<ion-content padding>
-	<ion-list>
-		<ion-item>
-			<ion-label floating>Username</ion-label>
-			<ion-input placeholder = "Username" [(ngModel)]= "inputVal" type="text"></ion-input>
-		</ion-item>
-
-		<ion-item>
-			<ion-label floating>Password</ion-label>
-			<ion-input placeholder = "Password" type="password" [(ngModel)]= "password" ></ion-input>
-		</ion-item>
-
-		<ion-item>
-			<ion-label floating>Repeat Password</ion-label>
-			<ion-input placeholder = "Repeat password" type="password" [(ngModel)]= "repass" ></ion-input>
-		</ion-item>
+	</ion-header>
 
 
-		<button ion-button full (click) = "register()">Register </button>
+	<ion-content padding>
+		<ion-list>
+			<ion-item>
+				<ion-label floating>Username</ion-label>
+				<ion-input placeholder = "Username" [(ngModel)]= "inputVal" type="text"></ion-input>
+			</ion-item>
 
-	</ion-list>
+			<ion-item>
+				<ion-label floating>Password</ion-label>
+				<ion-input placeholder = "Password" type="password" [(ngModel)]= "password" ></ion-input>
+			</ion-item>
 
-</ion-content>
+			<ion-item>
+				<ion-label floating>Repeat Password</ion-label>
+				<ion-input placeholder = "Repeat password" type="password" [(ngModel)]= "repass" ></ion-input>
+			</ion-item>
+
+
+			<button ion-button full (click) = "register()">Register </button>
+
+		</ion-list>
+
+	</ion-content>

@@ -34,7 +34,7 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullapp\src\pages\about\about.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n	<ion-navbar color = "cool">\n		<button ion-button menuToggle>\n			<ion-icon name ="menu"> </ion-icon> </button>\n			<ion-title>About us</ion-title>\n		</ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullapp\src\pages\about\about.html"*/,
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullApp\src\pages\about\about.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n	<ion-navbar color = "danger">\n		<button ion-button menuToggle>\n			<ion-icon name ="menu"> </ion-icon> </button>\n			<ion-title>About Us</ion-title>\n		</ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullApp\src\pages\about\about.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], AboutPage);
@@ -79,7 +79,7 @@ var ContactPage = /** @class */ (function () {
     };
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullapp\src\pages\contact\contact.html"*/'<!--\n  Generated template for the ContactPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color = "accent">\n		<button ion-button menuToggle>\n			<ion-icon name ="menu"> </ion-icon> </button>\n			<ion-title>Contact us</ion-title>\n		</ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullapp\src\pages\contact\contact.html"*/,
+            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullApp\src\pages\contact\contact.html"*/'<!--\n  Generated template for the ContactPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color = "accent">\n		<button ion-button menuToggle>\n			<ion-icon name ="menu"> </ion-icon> </button>\n			<ion-title>Contact Us</ion-title>\n		</ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullApp\src\pages\contact\contact.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ContactPage);
@@ -124,7 +124,7 @@ var MenuPage = /** @class */ (function () {
     };
     MenuPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menu',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullapp\src\pages\menu\menu.html"*/'<!--\n  Generated template for the MenuPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n<ion-navbar color = "secondary">\n		<button ion-button menuToggle>\n			<ion-icon name ="menu"> </ion-icon> </button>\n			<ion-title>Menu</ion-title>\n		</ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullapp\src\pages\menu\menu.html"*/,
+            selector: 'page-menu',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullApp\src\pages\menu\menu.html"*/'<!--\n  Generated template for the MenuPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n<ion-navbar color = "secondary">\n		<button ion-button menuToggle>\n			<ion-icon name ="menu"> </ion-icon> </button>\n			<ion-title>Menu</ion-title>\n		</ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullApp\src\pages\menu\menu.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], MenuPage);
@@ -165,11 +165,11 @@ var map = {
 		3
 	],
 	"../pages/info/info.module": [
-		283,
+		282,
 		2
 	],
 	"../pages/menu/menu.module": [
-		282,
+		283,
 		1
 	],
 	"../pages/register/register.module": [
@@ -249,7 +249,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullapp\src\pages\home\home.html"*/'<ion-header>\n	<ion-navbar color = "cool">\n		<ion-title padding center text-center>\n			Ionic FullApp\n		</ion-title>\n	</ion-navbar>\n</ion-header>\n\n<ion-content padding right text-right>\n	You entered my application\n\n	<ion-list>\n		<ion-item>\n			<ion-label floating>Username</ion-label>\n			<ion-input placeholder = "Username" [(ngModel)]= "inputVal" type="text"></ion-input>\n		</ion-item>\n\n		<ion-item>\n			<ion-label floating>Password</ion-label>\n			<ion-input placeholder = "Password" type="password" [(ngModel)]= "password" ></ion-input>\n		</ion-item>\n	</ion-list>\n\n	<button ion-button full (click) ="login()"> Login </button>\n	<button ion-button full color="light" (click) = "goRegister()">Register </button>\n\n	<ion-item>\n		<ion-textarea placeholder = "Write me a novel" rows = "10">\n\n		</ion-textarea>\n	</ion-item>\n\n	<p padding center text-center>\n		This app was created by Pablo Rosales\n	</p>\n\n	<button ion-button round (click)="getData()" padding left >HTML Good Stuff</button>\n\n<button ion-button round padding center text-left full color="dark" (click) = "goInfo()">Good Info </button>\n\n	<button ion-button round padding center text-right (click) = "buttonClick()" >CLick me to begin</button>\n\n	<ion-row> ID: {{result.id}} </ion-row>\n	<ion-row> Body: {{result.body}} </ion-row>\n	<ion-row> Title: {{result.title}} </ion-row>\n\n	<p padding center text-center>\n		I know you are writing:\n		{{inputVal}}\n	</p>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullapp\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullApp\src\pages\home\home.html"*/'<ion-header>\n	<ion-navbar color = "cool">\n		<button ion-button menuToggle>\n\n			<ion-icon name ="home"> </ion-icon> \n\n		</button>\n	\n		<ion-title menuToggle padding center text-center>\n			Ionic Business\n		</ion-title>\n		\n	</ion-navbar>\n</ion-header>\n\n<ion-content padding right text-right>\n	You entered my application\n\n	<ion-list>\n		<ion-item>\n			<ion-label floating>Username</ion-label>\n			<ion-input placeholder = "Username" [(ngModel)]= "inputVal" type="text"></ion-input>\n		</ion-item>\n\n		<ion-item>\n			<ion-label floating>Password</ion-label>\n			<ion-input placeholder = "Password" type="password" [(ngModel)]= "password" ></ion-input>\n		</ion-item>\n	</ion-list>\n\n	<button ion-button full (click) ="login()"> Login </button>\n	<button ion-button full color="light" (click) = "goRegister()">Register </button>\n\n	<ion-item>\n		<ion-textarea placeholder = "Write me a novel" rows = "10">\n\n		</ion-textarea>\n	</ion-item>\n\n	<p padding center text-center>\n		This app was created by Pablo Rosales\n	</p>\n\n	<button ion-button round (click)="getData()" padding left >HTML Good Stuff</button>\n\n<button ion-button round padding center text-left full color="dark" (click) = "goInfo()">Good Info </button>\n\n	<button ion-button round padding center text-right (click) = "buttonClick()" >CLick me to begin</button>\n\n	<ion-row> ID: {{result.id}} </ion-row>\n	<ion-row> Body: {{result.body}} </ion-row>\n	<ion-row> Title: {{result.title}} </ion-row>\n\n	<p padding center text-center>\n		I know you are writing:\n		{{inputVal}}\n	</p>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullApp\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["a" /* HttpClient */]])
     ], HomePage);
@@ -331,8 +331,8 @@ var AppModule = /** @class */ (function () {
                     links: [
                         { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] }
                     ]
                 }),
@@ -409,8 +409,8 @@ var MyApp = /** @class */ (function () {
             { title: 'Home', icon: 'home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
             { title: 'Info', icon: 'star', component: __WEBPACK_IMPORTED_MODULE_6__pages_info_info__["a" /* InfoPage */] },
             { title: 'Register', icon: 'heart', component: __WEBPACK_IMPORTED_MODULE_5__pages_register_register__["a" /* RegisterPage */] },
-            { title: 'About', icon: 'information-circle', component: __WEBPACK_IMPORTED_MODULE_7__pages_about_about__["a" /* AboutPage */] },
-            { title: 'Contact us', icon: 'contact', component: __WEBPACK_IMPORTED_MODULE_9__pages_contact_contact__["a" /* ContactPage */] },
+            { title: 'About Us', icon: 'information-circle', component: __WEBPACK_IMPORTED_MODULE_7__pages_about_about__["a" /* AboutPage */] },
+            { title: 'Contact Us', icon: 'contact', component: __WEBPACK_IMPORTED_MODULE_9__pages_contact_contact__["a" /* ContactPage */] },
             { title: 'Menu', icon: 'list-box', component: __WEBPACK_IMPORTED_MODULE_8__pages_menu_menu__["a" /* MenuPage */] }
         ];
     }
@@ -435,9 +435,10 @@ var MyApp = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullapp\src\app\app.html"*/'<ion-nav [root]="rootPage">\n	<ion-menu [content] ="content">\n		<ion-header>\n			<ion-toolbar color = "primary">\n				<ion-title> Business Time </ion-title>\n			</ion-toolbar>\n		</ion-header>\n\n	<ion-content>\n		<ion-list>\n			<button color= "accent" menuClose ion-item *ngFor = "let p of pages" (click)="openPage(p)" >\n				<ion-icon [name]="p.icon" item-left> </ion-icon>\n\n			 {{p.title}}\n			</button> \n		</ion-list>\n	</ion-content>\n\n</ion-menu>\n		\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullapp\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullApp\src\app\app.html"*/'\n	<ion-menu [content] ="content">\n		<ion-header>\n			<ion-toolbar color = "primary">\n				<ion-title> Business Time </ion-title>\n			</ion-toolbar>\n		</ion-header>\n\n	<ion-content>\n		<ion-list>\n			<button color= "accent" menuClose ion-item *ngFor = "let p of pages" (click)="openPage(p)" >\n				<ion-icon [name]="p.icon" item-left> </ion-icon>\n				 +{{p.title}}\n			</button> \n		</ion-list>\n	</ion-content>\n\n</ion-menu>\n\n//Disable swipe to fo baCK cause poor UX combining STGB\n		<ion-nav [root]="rootPage" #content \n		swipeBackEnabled = "false"></ion-nav>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullApp\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
 }());
@@ -517,7 +518,7 @@ var InfoPage = /** @class */ (function () {
     };
     InfoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-info',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullapp\src\pages\info\info.html"*/'<!--\n  Generated template for the InfoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Info</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n	<ion-list>\n  <ion-item-group>\n    <ion-item-divider color="light">Latin gastronomy by country</ion-item-divider>\n    <ion-item *ngFor = "let nat of nats" (click) = "natClick(nat.cap)">\n    	<h2>{{nat.title}}</h2> </ion-item>\n  </ion-item-group>\n</ion-list>\n\n<ion-list>\n  <ion-item-group>\n    <ion-item-divider color="danger">By environment </ion-item-divider>\n    <ion-item *ngFor = "let obj of objs">{{obj.title}}</ion-item>\n  </ion-item-group>\n</ion-list>\n\n\n<ion-list>\n  <ion-item-group>\n    <ion-item-divider color="dark">100 Latin Language labels </ion-item-divider>\n    <ion-item *ngFor = "let item of items">\n<h1>\n	{{item.id}}\n</h1>\n    {{item.title}}</ion-item>\n  </ion-item-group>\n</ion-list>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullapp\src\pages\info\info.html"*/,
+            selector: 'page-info',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullApp\src\pages\info\info.html"*/'<!--\n  Generated template for the InfoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-navbar color = "primary">\n      <button ion-button menuToggle>\n        <ion-icon name ="menu"> </ion-icon> </button>\n        <ion-title>Information</ion-title>\n      </ion-navbar>\n      <ion-title>Info</ion-title>\n    </ion-navbar>\n\n  </ion-header>\n\n  <ion-content>\n   <ion-list>\n    <ion-item-group>\n      <ion-item-divider color="light">Latin gastronomy by country</ion-item-divider>\n      <ion-item *ngFor = "let nat of nats" (click) = "natClick(nat.cap)">\n       <h2>{{nat.title}}</h2> </ion-item>\n     </ion-item-group>\n   </ion-list>\n\n   <ion-list>\n    <ion-item-group>\n      <ion-item-divider color="danger">By environment </ion-item-divider>\n      <ion-item *ngFor = "let obj of objs">{{obj.title}}</ion-item>\n    </ion-item-group>\n  </ion-list>\n\n\n  <ion-list>\n    <ion-item-group>\n      <ion-item-divider color="dark">100 Latin Language labels </ion-item-divider>\n      <ion-item *ngFor = "let item of items">\n        <h1>\n         {{item.id}}\n       </h1>\n     {{item.title}}</ion-item>\n   </ion-item-group>\n </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullApp\src\pages\info\info.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]])
@@ -569,7 +570,7 @@ var RegisterPage = /** @class */ (function () {
     };
     RegisterPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-register',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullapp\src\pages\register\register.html"*/'<!--\n  Generated template for the RegisterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n	<ion-navbar>\n		<ion-title>Register</ion-title>\n	</ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n	<ion-list>\n		<ion-item>\n			<ion-label floating>Username</ion-label>\n			<ion-input placeholder = "Username" [(ngModel)]= "inputVal" type="text"></ion-input>\n		</ion-item>\n\n		<ion-item>\n			<ion-label floating>Password</ion-label>\n			<ion-input placeholder = "Password" type="password" [(ngModel)]= "password" ></ion-input>\n		</ion-item>\n\n		<ion-item>\n			<ion-label floating>Repeat Password</ion-label>\n			<ion-input placeholder = "Repeat password" type="password" [(ngModel)]= "repass" ></ion-input>\n		</ion-item>\n\n\n		<button ion-button full (click) = "register()">Register </button>\n\n	</ion-list>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullapp\src\pages\register\register.html"*/,
+            selector: 'page-register',template:/*ion-inline-start:"C:\Users\Anwender\Ionic\fullApp\src\pages\register\register.html"*/'<!--\n  Generated template for the RegisterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n	\n	<ion-navbar color = "secondary">\n		<button ion-button menuToggle>\n			<ion-icon name ="menu"> </ion-icon> </button>\n			<ion-title>Register</ion-title>\n		</ion-navbar>\n\n	</ion-header>\n\n\n	<ion-content padding>\n		<ion-list>\n			<ion-item>\n				<ion-label floating>Username</ion-label>\n				<ion-input placeholder = "Username" [(ngModel)]= "inputVal" type="text"></ion-input>\n			</ion-item>\n\n			<ion-item>\n				<ion-label floating>Password</ion-label>\n				<ion-input placeholder = "Password" type="password" [(ngModel)]= "password" ></ion-input>\n			</ion-item>\n\n			<ion-item>\n				<ion-label floating>Repeat Password</ion-label>\n				<ion-input placeholder = "Repeat password" type="password" [(ngModel)]= "repass" ></ion-input>\n			</ion-item>\n\n\n			<button ion-button full (click) = "register()">Register </button>\n\n		</ion-list>\n\n	</ion-content>\n'/*ion-inline-end:"C:\Users\Anwender\Ionic\fullApp\src\pages\register\register.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], RegisterPage);

@@ -15,11 +15,14 @@ import { ContactPage } from '../pages/contact/contact';
 })
 export class MyApp {
 
-  @ViewChild(Nav) nav:Nav;
+  @ViewChild(Nav) nav : Nav;
+
   rootPage:any = HomePage;
+  
   pages: Array <{title: string, icon: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform, public statusBar:
+    StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
 //used for ex of ngFor and nav
@@ -27,8 +30,8 @@ this.pages = [
 {title: 'Home', icon: 'home', component: HomePage},
 {title: 'Info', icon: 'star',  component: InfoPage},
 {title: 'Register', icon: 'heart', component: RegisterPage},
-{title: 'About', icon: 'information-circle', component: AboutPage},
-{title: 'Contact us', icon: 'contact',  component: ContactPage},
+{title: 'About Us', icon: 'information-circle', component: AboutPage},
+{title: 'Contact Us', icon: 'contact',  component: ContactPage},
 {title: 'Menu', icon: 'list-box', component: MenuPage}
 
 ]

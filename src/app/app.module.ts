@@ -21,7 +21,7 @@ import {HttpClientModule} from '@angular/common/http';
   InfoPage,
   AboutPage,
   MenuPage,
-  ContactPage
+  ContactPage  
   ],
   imports: [
   BrowserModule,
