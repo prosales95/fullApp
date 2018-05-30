@@ -1,52 +1,44 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {RegisterPage} from '../register/register';
-import {InfoPage} from '../info/info';
-import {HttpClient} from '@angular/common/http';
-import {Observable} from 'rxjs/Observable';
+import { Dish } from '../../shared/dish';
+import { DishProvider } from '../../providers/dish/dish';
+import { Promotion } from '../../shared/promotion';
+import { PromotionProvider } from '../../providers/promotion/promotion';
+import { Leader } from '../../shared/leader';
+import { LeaderProvider } from '../../providers/leader/leader';
+
 
 @Component({
-	selector: 'page-home',
-	templateUrl: 'home.html'
+  selector: 'page-home',
+  templateUrl: 'home.html'
 })
-export class HomePage {
-	public inputVal:string;
-	username:string;
-	password:string;
-	data: Observable<any>;
-	result: any =[];
-	constructor(public navCtrl: NavController, public http:HttpClient) {
+export class HomePage implements OnInit {
 
+  dish: Dish;
+  promotion: Promotion;
+  leader: Leader;
+  dishErrMess: string;
+  promoErrMess: string;
+  leaderErrMess: string;
 
-	}
+  constructor(public navCtrl: NavController,
+    public dishservice: DishProvider,
+    public promotionservice: PromotionProvider,
+    public leaderservice: LeaderProvider,
+    @Inject('BaseURL') public BaseURL) {
 
-	buttonClick(){
-		console.log("Clicked");
-		alert(this.inputVal + "I see you are obedient. I like that.")
-	}
+  }
 
-	goRegister(){
-		this.navCtrl.push(RegisterPage)
-
-	}
-
-	goInfo(){
-		this.navCtrl.push(InfoPage)
-	}
-
-	login(){
-		console.log ("Username " + this.username);
-		console.log("Password "+this.password);
-	}
-
-	getData() {
-		var url ='https://jsonplaceholder.typicode.com/posts/1' ;
-		this.data =this.http.get(url);
-		this.data.subscribe (data => {
-			console.log(data);
-			this.result=data;
-		})
-		console.log('getData executed');
-	}
+  ngOnInit() {
+    this.dishservice.getFeaturedDish()
+       .subscribe(dish => this.dish = dish,
+        errmess => this.dishErrMess = <any>errmess );
+    this.promotionservice.getFeaturedPromotion()
+      .subscribe(promotion => this.promotion = promotion,
+        errmess => this.promoErrMess = <any>errmess );
+    this.leaderservice.getFeaturedLeader()
+      .subscribe(leader => this.leader = leader,
+        errmess => this.leaderErrMess = <any>errmess );
+  }
 
 }
