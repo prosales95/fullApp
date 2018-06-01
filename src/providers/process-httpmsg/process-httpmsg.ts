@@ -25,6 +25,7 @@ export class ProcessHttpmsgProvider {
   public handleError (error: Response | any) {
     // In a real world app, you might use a remote logging infrastructure
     let errMsg: string;
+    console.log(errMsg);
     if (error instanceof Response) {  //server sent error
       const body = error.json() || '';
       const err = body.error || JSON.stringify(body);
@@ -33,6 +34,7 @@ export class ProcessHttpmsgProvider {
       errMsg = error.message ? error.message : error.toString();
     }
     console.error(errMsg);
+    console.log(errMsg)
     return Observable.throw(errMsg);
   }
 }
